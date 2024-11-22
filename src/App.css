@@ -1,0 +1,154 @@
+.main-header {
+  background-color: #f58120;
+  padding: 5px;
+  color: white;
+  font-size: 16px;
+}
+
+.logo-img {
+  width: 100px;
+  height: 60px;
+  margin-right: 10px;
+  filter: brightness(0) invert(1);
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.actions .btn {
+  background-color: #fff;
+  color: #f58120;
+  border: 1px solid #fff;
+  font-weight: bold;
+}
+
+.actions .btn:hover {
+  background-color: #f58120;
+  color: #fff;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+  width: 20px;
+}
+
+.menu-icon span {
+  background: white;
+  height: 2px;
+  width: 100%;
+  border-radius: 2px;
+}
+
+.mobile-menu {
+  background: #f58120;
+  padding: 10px 0;
+  position: absolute;
+  width: 100%;
+  top: 60px;
+  left: 0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.mobile-menu a {
+  display: block;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.mobile-menu a:hover {
+  background: #ff8c42;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f58120;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: #f58120;
+  margin-top: 5px;
+}
+
+.event-card {
+  background: #f58120;
+  border-radius: 10px;
+  height: 215px;
+}
+
+.search-bar {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+}
+
+.tabs a {
+  color: #f58120;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.articles-list {
+  margin-top: 10px;
+}
+
+.article-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.article-card h4 {
+  font-size: 16px;
+  color: #f58120;
+  font-weight: bold;
+}
+
+.article-card img {
+  width: 200px;
+  height: 100px;
+}
+
+.article-card p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.article-card a {
+  color: #f58120;
+  font-size: 14px;
+  text-decoration: none;
+}
